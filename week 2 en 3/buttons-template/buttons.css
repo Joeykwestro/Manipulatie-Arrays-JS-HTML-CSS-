@@ -1,0 +1,11 @@
+#main {
+	height: 600px;
+	width: 600px;
+	background: url('images/bg0.jpg');
+}
+
+#button1, #button2, #button3 {
+	height: 50px;
+	widows: 50px;
+	background: grey;
+}
