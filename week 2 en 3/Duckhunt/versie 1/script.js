@@ -1,5 +1,5 @@
-var positionX = 500;
-var positionY = 300;
+var positionX = 600;
+var positionY = 250;
 
 var duck = document.getElementById("duck").addEventListener("click", duck);
 function duck(){
@@ -40,8 +40,8 @@ function bottom(){
 
 var spawn = document.getElementById("respawn").addEventListener("click", respawn);
 function respawn(){
-	positionY = 300;
-	positionX = 500;
+	positionY = 250;
+	positionX = 600;
 	var positionX2 = document.getElementById("duck").style.left = positionX + "px";
 	var positionY2 = document.getElementById("duck").style.top = positionY + "px";
 	var duck = document.getElementById("duck").style.display="inline-block";
